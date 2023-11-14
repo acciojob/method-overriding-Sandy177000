@@ -6,8 +6,7 @@ public class Main {
 	}
 
 	public static void main(String[] args) {
-		A obj1 = new B();
-		obj1.meth();
+
 		B obj = new B();
 		obj.meth();
 	}
@@ -17,7 +16,7 @@ public class Main {
 		}
 
 		public String meth() {
-			return "Method is overridden in Extended class B";
+			return "Method is overridden in Extendend class B";
 		}
 	}
 
