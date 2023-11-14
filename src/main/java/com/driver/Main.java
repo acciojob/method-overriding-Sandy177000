@@ -6,8 +6,10 @@ public class Main {
 	}
 
 	public static void main(String[] args) {
+		A obj1 = new B();
+		obj1.meth();
 		B obj = new B();
-		System.out.println(obj.meth());
+		obj.meth();
 	}
 
 	public static class B extends A {
